@@ -101,7 +101,7 @@ title="fork me" target="_blank">笔筒虫</a></p>
     
 <li class="widget widget-normal category">
     <h3 class="fa fa-th widget-title">分类</h3>
-    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/GIT/"><i class="fa" aria-hidden="true">GIT</i></a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/open-edx框架/"><i class="fa" aria-hidden="true">open edx框架</i></a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link current" href="/categories/win10操作/"><i class="fa" aria-hidden="true">win10操作</i></a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/其他技术/"><i class="fa" aria-hidden="true">其他技术</i></a><span class="category-list-count">2</span></li></ul>
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link current" href="/categories/GIT/"><i class="fa" aria-hidden="true">GIT</i></a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/open-edx框架/"><i class="fa" aria-hidden="true">open edx框架</i></a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/win10操作/"><i class="fa" aria-hidden="true">win10操作</i></a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/其他技术/"><i class="fa" aria-hidden="true">其他技术</i></a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网站建设/"><i class="fa" aria-hidden="true">网站建设</i></a><span class="category-list-count">1</span></li></ul>
 </li>
 
 
@@ -109,7 +109,7 @@ title="fork me" target="_blank">笔筒虫</a></p>
     
 <li class="widget widget-normal archive">
   <h3 class="fa fa-archive widget-title">归档</h3>
-    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/"><i class="fa" aria-hidden="true">二月 2018</i></a><span class="archive-list-count">5</span></li></ul>
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/"><i class="fa" aria-hidden="true">二月 2018</i></a><span class="archive-list-count">7</span></li></ul>
 </li>
 
 
@@ -121,7 +121,7 @@ title="fork me" target="_blank">笔筒虫</a></p>
   <h3 class="fa fa-tags widget-title">标签云</h3>
   <div class="tagcloud-content">
     
-      <a href="/tags/博客搭建/" style="font-size: 0.2rem; color: #0a407c">博客搭建</a> <a href="/tags/win10/" style="font-size: 0.14rem; color: #69c">win10</a> <a href="/tags/git学习/" style="font-size: 0.14rem; color: #69c">git学习</a> <a href="/tags/edx/" style="font-size: 0.14rem; color: #69c">edx</a>
+      <a href="/tags/博客搭建/" style="font-size: 0.2rem; color: #0a407c">博客搭建</a> <a href="/tags/win10/" style="font-size: 0.14rem; color: #69c">win10</a> <a href="/tags/git学习/" style="font-size: 0.17rem; color: #386da4">git学习</a> <a href="/tags/edx/" style="font-size: 0.14rem; color: #69c">edx</a>
   </div>
 </li>
 
@@ -140,6 +140,126 @@ title="fork me" target="_blank">笔筒虫</a></p>
     
     
     
+    
+    
+    <li  class="article-excerpt-wrap " _href = "/2018/02/26/201802261152/">
+        <div class="article-img img-ajax" data-src= http://ww1.sinaimg.cn/large/006vT9TSly1foqfpt74yuj30di07laaj.jpg>
+           <div class="loading-img"><i class="fa fa-pulse fa-spinner"></i></div>
+        </div>
+        <div class="article-excerpt">
+            
+            <a class="article-title-link" href="/2018/02/26/201802261152/">
+                <h2 class="article-title">一台电脑实现push不同仓库到两个github账号</h2>
+            </a>
+            
+            <p class="article-content">
+                前言：吐槽：因为需要两个博客，所以我需要在我这一台电脑上同时管理两个博客内容。但是对hexo的理解不是太深入，所以每次deploy都是直接push到我第一个账号中，于是便产生了这篇博客（如果有什么不成熟或错误的地方，等后面对hexo和git了解深入一点再来修改）。
+不得不说的是，之前学的git知识还是不太熟练呀！在实现了同时存放多个rsa秘钥后还是不知道如何将另一个本地仓库push到github中，都打算用虚拟机来弄的了，要不是嫌配环境那些太麻烦，没准儿这篇博客就不是这样写的了。
+需求:在一台电脑上，实现push各自的仓库到两个github账号
+（如何在一台电脑上存放多个git账户的多个rsa秘钥）
+流程:制造第一把公钥：ssh-keygen -t rsa -C “A@XX.com“
+一直enter下去，出现id_rsa名称设置：
+Enter file in which to sav...
+            </p>
+            <div class="article-meta">
+    
+    
+    <span class="categories-meta fa-wrap">
+            <i class="fa fa-folder-open-o"></i>
+        <span>GIT</span>
+    </span>
+    
+    
+    <span class="fa-wrap">
+         <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            git学习
+            
+        </span>
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-clock-o"></i>
+        <span class="date-meta ">2018/02/26</span>
+    </span>
+    
+    
+    
+    <a href="/2018/02/26/201802261152/" class="read-article">阅读全文</a>
+    
+</div>
+
+        </div>
+        
+    </li>
+    
+    
+    <li  class="article-excerpt-wrap " _href = "/2018/02/26/201802261053/">
+        <div class="article-img img-ajax" data-src= http://ww1.sinaimg.cn/large/006vT9TSly1fotonir94hj312t0hp0yh.jpg>
+           <div class="loading-img"><i class="fa fa-pulse fa-spinner"></i></div>
+        </div>
+        <div class="article-excerpt">
+            
+            <a class="article-title-link" href="/2018/02/26/201802261053/">
+                <h2 class="article-title">绑定github上的博客到个人域名</h2>
+            </a>
+            
+            <p class="article-content">
+                需求：实现将托管在github上的个人博客绑定到万网域名的流程
+流程：1、购买域名（这里用的阿里云），备案(实名认证)
+2、在github根目录添加CNAME，内容为www.xxx.com(去掉http://)
+
+注:如果不添加www，域名访问时就不能加www，否则会出错
+如果是hexo搭建的，直接将文件存放在source文件夹下，hexo g &amp; hexo d，就能将文件上传到github根目录中
+3、点进项目文件夹，点击setting，向下滑，将你购买的域名填写在Custom domain中（去掉http://），点击save
+
+4、转到阿里云域名管理界面，点击解析
+
+可以点击新手引导，直接填写网址
+
+填写的内容可以直接CMD去ping你的博客得到
+
+也可以自己按需求配置
+
+配置完成后，就可以通过购买的域名访问你的github网站了
+注：关于记录类型的解释
+1234567...
+            </p>
+            <div class="article-meta">
+    
+    
+    <span class="categories-meta fa-wrap">
+            <i class="fa fa-folder-open-o"></i>
+        <span>网站建设</span>
+    </span>
+    
+    
+    <span class="fa-wrap">
+         <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            博客搭建
+            
+        </span>
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-clock-o"></i>
+        <span class="date-meta ">2018/02/26</span>
+    </span>
+    
+    
+    
+    <a href="/2018/02/26/201802261053/" class="read-article">阅读全文</a>
+    
+</div>
+
+        </div>
+        
+    </li>
     
     
     <li  class="article-excerpt-wrap " _href = "/2018/02/23/20182231501/">
@@ -195,7 +315,7 @@ win+ctrl+d新建虚拟桌面
     
     
     <li  class="article-excerpt-wrap " _href = "/2018/02/23/20182231452/">
-        <div class="article-img img-ajax" data-src= http://img.blog.csdn.net/20180122234139973?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMTg2NTcxNzU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast>
+        <div class="article-img img-ajax" data-src= http://img.blog.csdn.net/20180122234124088?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMTg2NTcxNzU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast>
            <div class="loading-img"><i class="fa fa-pulse fa-spinner"></i></div>
         </div>
         <div class="article-excerpt">
