@@ -3,6 +3,38 @@
     
     
     <entry>
+        <title><![CDATA[招聘信息]]></title>
+        <url>https://bitongchong.github.io/2018/03/07/20180223/</url>
+        <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006vT9TSgy1foqi4i1yauj30di07laaj.jpg" alt=""></p>
+<p>滴答滴答滴答滴答</p>
+]]></content>
+        
+        <categories>
+            
+            <category> 其他技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+        <title></title>
+        <url>https://bitongchong.github.io/2018/02/27/undefined/</url>
+        <content type="html"><![CDATA[<p>sublime text3搭建python3</p>
+<p>留坑，有时间再填</p>
+]]></content>
+        
+        
+    </entry>
+    
+    <entry>
         <title><![CDATA[VM虚拟机不能联网的问题解决方案]]></title>
         <url>https://bitongchong.github.io/2018/02/26/201802261621/</url>
         <content type="html"><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>虚拟机刚开始安装完成的时候，能够正常访问网络，结果后面突然显示网络断开连接，网上找了很多方案，无果。后面自己鼓弄的时候修复好了，方案如下。</p>
