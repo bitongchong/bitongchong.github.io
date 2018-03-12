@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bitongchong.github.io/"/>
-  <updated>2018-02-27T11:37:22.440Z</updated>
+  <updated>2018-03-11T13:55:03.316Z</updated>
   <id>https://bitongchong.github.io/</id>
   
   <author>
@@ -17,25 +17,81 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://bitongchong.github.io/2018/02/27/undefined/"/>
-    <id>https://bitongchong.github.io/2018/02/27/undefined/</id>
-    <published>2018-02-27T11:37:22.306Z</published>
-    <updated>2018-02-27T11:37:22.440Z</updated>
+    <title>从C到python的一小时</title>
+    <link href="https://bitongchong.github.io/2018/03/11/201803112146/"/>
+    <id>https://bitongchong.github.io/2018/03/11/201803112146/</id>
+    <published>2018-03-11T13:55:03.175Z</published>
+    <updated>2018-03-11T13:55:03.316Z</updated>
     
-    <content type="html"><![CDATA[<p>sublime text3搭建python3</p><p>留坑，有时间再填</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006CQOKjgy1fp97udq7psj30eg07jwee.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;sublime text3搭建python3&lt;/p&gt;
-&lt;p&gt;留坑，有时间再填&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/006CQOKjgy1fp97udq7psj30eg07jwee.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
       
     
     </summary>
     
+      <category term="python" scheme="https://bitongchong.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://bitongchong.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python2与3之间的版本区别（逐渐补充）</title>
+    <link href="https://bitongchong.github.io/2018/03/11/201803112130/"/>
+    <id>https://bitongchong.github.io/2018/03/11/201803112130/</id>
+    <published>2018-03-11T13:36:39.465Z</published>
+    <updated>2018-03-11T13:36:39.594Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006CQOKjgy1fp97agq29gj30dx08cglv.jpg" alt=""></p><h4 id="1、3-0以上的版本使用urllib-request-代替了urllib2，import的时候需要注意。"><a href="#1、3-0以上的版本使用urllib-request-代替了urllib2，import的时候需要注意。" class="headerlink" title="1、3.0以上的版本使用urllib.request 代替了urllib2，import的时候需要注意。"></a>1、3.0以上的版本使用urllib.request 代替了urllib2，import的时候需要注意。</h4><h4 id="2、python3使用print时，需要对打印内容加括号。"><a href="#2、python3使用print时，需要对打印内容加括号。" class="headerlink" title="2、python3使用print时，需要对打印内容加括号。"></a>2、python3使用print时，需要对打印内容加括号。</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/006CQOKjgy1fp97agq29gj30dx08cglv.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;1、3-0以上的版本使用urllib-request-代替了urllib2，imp
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://bitongchong.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://bitongchong.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sublime text3配置python3编译系统</title>
+    <link href="https://bitongchong.github.io/2018/03/11/201803112111/"/>
+    <id>https://bitongchong.github.io/2018/03/11/201803112111/</id>
+    <published>2018-03-11T13:27:15.730Z</published>
+    <updated>2018-03-11T13:27:15.935Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006CQOKjgy1fp96k910m5j30of0g6gra.jpg" alt=""></p><p>安装好sublime text3这款软件的时候，会有自带的编译系统。</p><p>但如果需要自己新建编译系统的时候，又怎么弄呢（不得不说的是，sublime3打开速度是真的快）？</p><hr><p><strong>点击工具→编译系统→编译新系统→输入以下代码</strong>，保存后输入名称python3，就能在编译系统中找到。</p><pre><code>{     &quot;cmd&quot;: [&quot;python&quot;, &quot;$file&quot;],    &quot;file_regex&quot;: &quot;py$&quot;,     &quot;selector&quot;: &quot;source.python&quot;,    &quot;encoding&quot;: &quot;cp936&quot;}</code></pre><hr><p>需要注意的是，<strong>python对缩进有着严格的要求，所以需要将tab设置为4个空格</strong>。</p><p>将以下两个选项打钩：<strong>缩进使用空格    标签宽度4</strong></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/large/006CQOKjgy1fp96k910m5j30of0g6gra.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;安装好sublime text3这款软件的时候，会有自带的编译系统。&lt;/p&gt;
+&lt;p&gt;但如果需
+      
+    
+    </summary>
+    
+      <category term="编译器设置" scheme="https://bitongchong.github.io/categories/%E7%BC%96%E8%AF%91%E5%99%A8%E8%AE%BE%E7%BD%AE/"/>
+    
+    
+      <category term="编译器" scheme="https://bitongchong.github.io/tags/%E7%BC%96%E8%AF%91%E5%99%A8/"/>
     
   </entry>
   
