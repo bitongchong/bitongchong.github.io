@@ -32,8 +32,8 @@
 <p>list里面的元素的数据类型也可以不同</p>
 <p>list元素也可以是另一个list</p>
 <h3 id="2、tuple"><a href="#2、tuple" class="headerlink" title="2、tuple"></a>2、tuple</h3><h4 id="is-what-1"><a href="#is-what-1" class="headerlink" title="is what"></a>is what</h4><p>另一种有序列表叫元组：tuple，与list非常类似，但是一旦初始化就不能修改（不能修改是指tuple指向不变）</p>
-<p><img src="https://cdn.liaoxuefeng.com/cdn/files/attachments/001387269705541ad608276b6f7426ca59b8c2b19947243000/0" alt="tuple-0"></p>
-<p><img src="https://cdn.liaoxuefeng.com/cdn/files/attachments/001387269768140c7d5ca167342402989dfc75343fe900b000/0" alt="tuple-1"></p>
+<p><img src="http://ww1.sinaimg.cn/large/006CQOKjgy1fpbaf9onasj309q078743.jpg" alt=""></p>
+<p><img src="http://ww1.sinaimg.cn/large/006CQOKjgy1fpbafkm4ngj309q078743.jpg" alt=""></p>
 <h4 id="how-to-use-1"><a href="#how-to-use-1" class="headerlink" title="how to use"></a>how to use</h4><p>显示只有1个元素的tuple时，会加一个逗号<code>,</code> （如：<code>t = (1,)</code>），以免你误解成数学计算意义上的括号。</p>
 <h2 id="二、条件判断"><a href="#二、条件判断" class="headerlink" title="二、条件判断"></a>二、条件判断</h2><h3 id="1、if"><a href="#1、if" class="headerlink" title="1、if"></a>1、if</h3><p>if语句后加上 <code>:</code></p>
 <p><code>elif</code>是<code>else if</code>的缩写，完全可以有多个<code>elif</code>，所以<code>if</code>语句的完整形式就是：</p>
