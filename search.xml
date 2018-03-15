@@ -3,10 +3,10 @@
     
     
     <entry>
-        <title><![CDATA[从c到python的一小时]]></title>
+        <title><![CDATA[从c到python的一小时（基础语法篇）]]></title>
         <url>https://bitongchong.github.io/2018/03/11/201803112146/</url>
         <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006CQOKjgy1fp97udq7psj30eg07jwee.jpg" alt=""></p>
-<h1 id="从c到python的一小时"><a href="#从c到python的一小时" class="headerlink" title="从c到python的一小时"></a>从c到python的一小时</h1><p>注：</p>
+<h1 id="从c到python的一小时（基础语法篇）"><a href="#从c到python的一小时（基础语法篇）" class="headerlink" title="从c到python的一小时（基础语法篇）"></a>从c到python的一小时（基础语法篇）</h1><p>注：</p>
 <p>1、本文非0基础教程，需要有较好的c语言基础。</p>
 <p>2、本文基于<a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="noopener">廖雪峰python教程</a>，需要进一步深入学习python的，可以点击学习。</p>
 <p>3、学习完本文，并非代表入门python，而是大致了解python与c有哪些较为明显的差别，触类旁通，从而大幅度缩减时间，达到一小时学习python的目的。</p>
