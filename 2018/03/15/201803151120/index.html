@@ -22,7 +22,7 @@
 <meta name="verify" content=all />
     <!--Title-->
 
-<title>VM虚拟机不能联网的问题解决方案 | BITC＇BLOG</title>
+<title>JSON语法 | BITC＇BLOG</title>
 
 <link rel="alternate" href="/atom.xml" title="BITC＇BLOG" type="application/atom+xml">
 
@@ -137,9 +137,9 @@ title="fork me" target="_blank">笔筒虫</a></p>
     <article id="post">
         <div id="post-header">
 
-            <h1 id="VM虚拟机不能联网的问题解决方案">
+            <h1 id="JSON语法">
                 
-                VM虚拟机不能联网的问题解决方案
+                JSON语法
                 
             </h1>
             <div class="article-meta">
@@ -147,7 +147,7 @@ title="fork me" target="_blank">笔筒虫</a></p>
     
     <span class="categories-meta fa-wrap">
             <i class="fa fa-folder-open-o"></i>
-        <span>虚拟机</span>
+        <span>JSON</span>
     </span>
     
     
@@ -155,7 +155,7 @@ title="fork me" target="_blank">笔筒虫</a></p>
          <i class="fa fa-tags"></i>
         <span class="tags-meta">
             
-            虚拟机出错
+            JSON
             
         </span>
     </span>
@@ -163,7 +163,7 @@ title="fork me" target="_blank">笔筒虫</a></p>
     
     <span class="fa-wrap">
         <i class="fa fa-clock-o"></i>
-        <span class="date-meta ">2018/02/26</span>
+        <span class="date-meta ">2018/03/15</span>
     </span>
     
     
@@ -175,16 +175,38 @@ title="fork me" target="_blank">笔筒虫</a></p>
         </div>
         
         <div id="post-body">
-            <h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>虚拟机刚开始安装完成的时候，能够正常访问网络，结果后面突然显示网络断开连接，网上找了很多方案，无果。后面自己鼓弄的时候修复好了，方案如下。</p>
-<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">打开虚拟网络编辑器</span><br><span class="line"></span><br><span class="line">点击更改设置</span><br><span class="line"></span><br><span class="line">再点击左下角的恢复默认按钮</span><br><span class="line"></span><br><span class="line">出来提示</span><br><span class="line"></span><br><span class="line">点是</span><br><span class="line"></span><br><span class="line">修复完成</span><br></pre></td></tr></table></figure>
-<p>编辑中找到虚拟网络编辑器，找到如下界面，更改设置<img src="http://ww1.sinaimg.cn/large/006vT9TSgy1fotyi1sa9ij30ix063q4f.jpg" alt=""></p>
-<p>点击还原默认设置，选是，修复完成<img src="http://ww1.sinaimg.cn/large/006vT9TSgy1fotyh9l9kxj30jp0aemz9.jpg" alt=""></p>
-<h1 id="其他解决方案"><a href="#其他解决方案" class="headerlink" title="其他解决方案"></a>其他解决方案</h1><p>为了以后出现这种问题的时候有更多办法，我将其他解决方案附在下面：</p>
-<h3 id="首先看看主机的网络连接有几个，主要是看看有没有VMnet1、VMnet8两个虚拟机的网络连接（关键是VMnet8）"><a href="#首先看看主机的网络连接有几个，主要是看看有没有VMnet1、VMnet8两个虚拟机的网络连接（关键是VMnet8）" class="headerlink" title="首先看看主机的网络连接有几个，主要是看看有没有VMnet1、VMnet8两个虚拟机的网络连接（关键是VMnet8）"></a>首先看看主机的网络连接有几个，主要是看看有没有VMnet1、VMnet8两个虚拟机的网络连接（关键是VMnet8）</h3><p>对于那些使用完全安装版的虚拟机就不用考虑这些了，因为完全安装版的VM安装好后一般这两个连接就有了。但是有很多网友使用的是精简版、绿色版的虚拟机，那就要首先看看这里。因为绿色版的需要单独安装虚拟机的网络服务，安装一般在下载的虚拟机目录内，一般名字叫做“安装.bat”或者“intall.dat”，运行它。可能版本不同名称不太一样，安装时主要把NAT服务安装上去就行了。如果你想用其他方式则把其他方式安装上。</p>
-<p>另外，<strong>这里所有连接都不要设置Internet连接共享，NAT方式下虚拟机上网不需要设置共享</strong>。</p>
-<h3 id="看看虚拟机的网络连接设置的对不对"><a href="#看看虚拟机的网络连接设置的对不对" class="headerlink" title="看看虚拟机的网络连接设置的对不对"></a>看看虚拟机的网络连接设置的对不对</h3><p>一般没有其他特殊要求，设置为NAT即可。</p>
-<p>这两步好了后可以启动虚拟机试试了，要注意：<strong>在NAT方式下，虚拟机内本地连接不要自己设定IP，应该都是自动获取。</strong></p>
-
+            <p><strong>JSON：JavaScript 对象表示法（JavaScript Object Notation）</strong></p>
+<h2 id="JSON-语法规则"><a href="#JSON-语法规则" class="headerlink" title="JSON 语法规则"></a>JSON 语法规则</h2><p>JSON 语法是 JavaScript 对象表示法语法的子集。</p>
+<ul>
+<li>数据在名称/值对中</li>
+<li>数据由逗号分隔</li>
+<li>花括号保存对象</li>
+<li>方括号保存数组</li>
+</ul>
+<h2 id="JSON-值"><a href="#JSON-值" class="headerlink" title="JSON 值"></a>JSON 值</h2><p>JSON 值可以是：</p>
+<ul>
+<li>数字（整数或浮点数）</li>
+<li>字符串（在双引号中）</li>
+<li>逻辑值（true 或 false）</li>
+<li>数组（在方括号中）</li>
+<li>对象（在花括号中）</li>
+<li>null</li>
+</ul>
+<h2 id="JSON-值-1"><a href="#JSON-值-1" class="headerlink" title="JSON 值"></a>JSON 值</h2><p>JSON 值可以是：</p>
+<ul>
+<li>数字（整数或浮点数）</li>
+<li>字符串（在双引号中）</li>
+<li>逻辑值（true 或 false）</li>
+<li>数组（在方括号中）</li>
+<li>对象（在花括号中）</li>
+<li>null</li>
+</ul>
+<h2 id="JSON-对象"><a href="#JSON-对象" class="headerlink" title="JSON 对象"></a>JSON 对象</h2><p>JSON 对象在花括号中：</p>
+<p>对象可以包含多个名称/值对：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123; &quot;firstName&quot;:&quot;John&quot; , &quot;lastName&quot;:&quot;Doe&quot; &#125;</span><br></pre></td></tr></table></figure>
+<h2 id="JSON-数组"><a href="#JSON-数组" class="headerlink" title="JSON 数组"></a>JSON 数组</h2><p>JSON 数组在方括号中书写：</p>
+<p>数组可包含多个对象：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">&quot;employees&quot;: [</span><br><span class="line">&#123; &quot;firstName&quot;:&quot;John&quot; , &quot;lastName&quot;:&quot;Doe&quot; &#125;,</span><br><span class="line">&#123; &quot;firstName&quot;:&quot;Anna&quot; , &quot;lastName&quot;:&quot;Smith&quot; &#125;,</span><br><span class="line">&#123; &quot;firstName&quot;:&quot;Peter&quot; , &quot;lastName&quot;:&quot;Jones&quot; &#125;</span><br><span class="line">]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
         </div>
         <div id="post-footer">
             <div class="avatar" >
@@ -203,20 +225,20 @@ title="fork me" target="_blank">笔筒虫</a></p>
                     <a href="/about.html">BIT C</a>
                 </li>
                 
-                <li>发表日期: <span>2018-02-26  17:01:35</span></li>
+                <li>发表日期: <span>2018-03-15  11:20:11</span></li>
                 
-                <li>最后编辑日期: <span>2018-02-26  17:05:32</span></li>
+                <li>最后编辑日期: <span>2018-03-15  11:31:14</span></li>
                 
                 <li class="post-category">
                     文章分类:
                     
-                    <a href="/categories/虚拟机/">虚拟机</a>
+                    <a href="/categories/JSON/">JSON</a>
                     
                 </li>
                 <li class="post-tags">
                     文章标签:
                     
-                    <a href="/tags/虚拟机出错/">虚拟机出错</a>
+                    <a href="/tags/JSON/">JSON</a>
                     
                 </li>
                 
@@ -239,10 +261,10 @@ title="fork me" target="_blank">笔筒虫</a></p>
     </article>
     <div class="article-nav">
         
-        <a href="/2018/03/11/201803112111/" class="pre-post fa fa-caret-left">sublime text3配置python3编译系统</a>
+        <a href="/2018/03/15/201803151138/" class="pre-post fa fa-caret-left">Python JSON</a>
         
         
-        <a href="/2018/02/26/201802261152/" class="next-post fa">一台电脑实现push不同仓库到两个github账号</a>
+        <a href="/2018/03/11/201803112146/" class="next-post fa">从c到python的一小时（基础语法篇）</a>
         
     </div>
     
@@ -314,7 +336,7 @@ title="fork me" target="_blank">笔筒虫</a></p>
     </div>
 </div>
 
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#问题"><span class="toc-number">1.</span> <span class="toc-text">问题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#解决方案"><span class="toc-number">2.</span> <span class="toc-text">解决方案</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#其他解决方案"><span class="toc-number">3.</span> <span class="toc-text">其他解决方案</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#首先看看主机的网络连接有几个，主要是看看有没有VMnet1、VMnet8两个虚拟机的网络连接（关键是VMnet8）"><span class="toc-number">3.0.1.</span> <span class="toc-text">首先看看主机的网络连接有几个，主要是看看有没有VMnet1、VMnet8两个虚拟机的网络连接（关键是VMnet8）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#看看虚拟机的网络连接设置的对不对"><span class="toc-number">3.0.2.</span> <span class="toc-text">看看虚拟机的网络连接设置的对不对</span></a></li></ol></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#JSON-语法规则"><span class="toc-number">1.</span> <span class="toc-text">JSON 语法规则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JSON-值"><span class="toc-number">2.</span> <span class="toc-text">JSON 值</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JSON-值-1"><span class="toc-number">3.</span> <span class="toc-text">JSON 值</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JSON-对象"><span class="toc-number">4.</span> <span class="toc-text">JSON 对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JSON-数组"><span class="toc-number">5.</span> <span class="toc-text">JSON 数组</span></a></li></ol>
 
 
 
